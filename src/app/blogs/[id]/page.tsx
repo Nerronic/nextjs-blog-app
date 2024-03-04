@@ -1,5 +1,5 @@
 import Comments from "@/app/components/comments";
-
+ import FormComments from "@/app/components/form-comments";
 const BlogDetailPage = () => {
   return (
     <div className="max-w-4xl mx-auto py-8 text-black">
@@ -13,6 +13,7 @@ const BlogDetailPage = () => {
         Dolores!
       </div>
       <Comments />
+      <FormComments/>
     </div>
   );
 };
